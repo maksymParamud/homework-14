@@ -40,3 +40,11 @@ let total = words.reduce(function(acumulator, currentItem) {
 },0)
 
 console.log(total);
+
+// -------------------5-------------------
+
+const mass1 = ["parrot", 140,"bull",true, 0, "bear", 47, "monkey"];
+
+let stringArray = mass1.filter(item => typeof item === "string");
+
+console.log(stringArray);
