@@ -19,3 +19,13 @@ for (item of num1) {
         break;
     }
 }
+
+// ------------------3------------------
+
+const mass = [42, 2, 33, 11, 12, 10, 0];
+
+const sum = mass.reduce((total, current) => total + current, 0);
+
+const average = sum / mass.length;
+
+console.log("Середнє арифметичне:", Math.trunc(average));
