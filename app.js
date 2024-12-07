@@ -29,3 +29,14 @@ const sum = mass.reduce((total, current) => total + current, 0);
 const average = sum / mass.length;
 
 console.log("Середнє арифметичне:", Math.trunc(average));
+
+// ------------------4-------------------
+
+const words = ["parrot", "bull", "bear", "monkey"];
+
+let total = words.reduce(function(acumulator, currentItem) {
+    let textLen = currentItem.length;
+    return acumulator + textLen;
+},0)
+
+console.log(total);
